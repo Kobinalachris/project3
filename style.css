@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    
+    /* height: 200px; */
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.rowBox{
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   height: 700px;
+   /* gap: 5px; */
+   /* flex-basis: 50px; */
+    /* background-color: blue; */
+    gap: 1px;
+} 
+.rowBox div{
+    flex: 1;
+
+}
+
+ .box :hover{ 
+    background-color: black; 
+} 
